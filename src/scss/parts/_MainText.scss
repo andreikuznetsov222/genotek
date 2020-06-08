@@ -1,0 +1,14 @@
+.MainText {
+  &__title {
+    @include Text-Style-5;
+    margin-bottom: 8px;
+    line-height: 38px;
+  }
+
+  &__subtitle {
+    @include Text-Style-2;
+    max-width: 485px;
+    width: 100%;
+    line-height: 24px;
+  }
+}

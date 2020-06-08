@@ -1,0 +1,148 @@
+.Tabs {
+  background-color: #142536;
+
+  &__item {
+    border-bottom: 1px solid #405265;
+  }
+
+
+  &__content {
+    padding: 0 45px;
+  }
+
+}
+
+.TabsTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 30px 45px;
+  cursor: pointer;
+  -webkit-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  background-color: transparent;
+
+  &__text {
+    @include Text-Style-7;
+    line-height: 28px;
+  }
+
+  .icon-svg {
+    -webkit-transform: perspective(18px) rotateX(0);
+    transform: perspective(18px) rotateX(0);
+    margin-left: 30px;
+    min-width: 18px;
+    max-width: 18px;
+  }
+
+  .active & {
+    .icon-svg {
+      -webkit-transform: perspective(18px) rotateX(180deg);
+      transform: perspective(18px) rotateX(180deg);
+    }
+  }
+}
+
+.TabsContent {
+  &__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  &__inner {
+    border-top: 1px solid #405265;
+    padding: 30px 0;
+    margin-top: -1px;
+  }
+
+  &__text {
+    max-width: 693px;
+    width: 100%;
+    margin-right: 118px;
+    @include Text-Style-3;
+
+    a {
+      font-family: ALSStory, sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: #5a88c1;
+      text-decoration: none;
+      border-bottom: 1px dashed;
+
+      &:hover {
+        border-bottom-color: transparent;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Tabs {
+    img {
+      min-width: 250px;
+    }
+  }
+  .TabsTitle {
+    &:hover {
+      background-color: #22374b;
+    }
+  }
+  .img__mob {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .TabsTitle {
+    padding: 15px;
+  }
+  .Tabs {
+    &__content {
+      padding: 0 15px;
+    }
+  }
+  .TabsContent {
+    &__inner {
+      padding: 15px 0 30px;
+    }
+
+    &__row {
+      display: block;
+    }
+
+    &__img {
+      img {
+        margin: 0 auto;
+      }
+    }
+
+    &__text {
+      margin-bottom: 30px;
+
+      .img__mob {
+        margin: 30px 0;
+
+        img {
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+  .img__desktop {
+    display: none;
+  }
+
+}

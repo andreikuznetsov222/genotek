@@ -1,0 +1,67 @@
+.Header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px;
+
+  &__logo {
+    @include Text-Style-6;
+    height: 20px;
+    line-height: 20px;
+
+    a {
+      @include Text-Style-6;
+      text-decoration: none;
+      border-bottom: none;
+
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+
+  &__date {
+    @include Text-Style-8;
+    margin-left: 15px;
+    height: 20px;
+    line-height: 20px;
+  }
+
+  &__user {
+    @include Text-Style;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 15px;
+    height: 20px;
+    line-height: 20px;
+
+    .icon-svg {
+      margin-right: 8px;
+    }
+
+    a {
+      @include Text-Style-8;
+      text-decoration: none;
+      border-bottom: none;
+
+      &:hover {
+        color: $black;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .Header {
+    &__user {
+      span {
+        display: none;
+      }
+    }
+  }
+}
