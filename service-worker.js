@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/genotek/precache-manifest.a75f64f34d12a40d04171a90b395b45f.js"
+  "/genotek/precache-manifest.4de2510e1c794dbbc72573a6388de60d.js"
 );
 
 self.addEventListener('message', (event) => {
