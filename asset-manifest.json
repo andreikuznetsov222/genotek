@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/genotek/static/css/main.5f361e03.chunk.css",
+    "main.js": "/genotek/static/js/main.5650b572.chunk.js",
+    "main.js.map": "/genotek/static/js/main.5650b572.chunk.js.map",
+    "runtime-main.js": "/genotek/static/js/runtime-main.9d258f42.js",
+    "runtime-main.js.map": "/genotek/static/js/runtime-main.9d258f42.js.map",
+    "static/js/2.b119aab4.chunk.js": "/genotek/static/js/2.b119aab4.chunk.js",
+    "static/js/2.b119aab4.chunk.js.map": "/genotek/static/js/2.b119aab4.chunk.js.map",
+    "index.html": "/genotek/index.html",
+    "precache-manifest.a41e451abc1bbde9b3c32241dd99d789.js": "/genotek/precache-manifest.a41e451abc1bbde9b3c32241dd99d789.js",
+    "service-worker.js": "/genotek/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/genotek/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.b119aab4.chunk.js.LICENSE.txt": "/genotek/static/js/2.b119aab4.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/genotek/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d258f42.js",
+    "static/js/2.b119aab4.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.5650b572.chunk.js"
+  ]
+}
