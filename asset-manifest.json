@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/genotek/static/css/main.5f361e03.chunk.css",
-    "main.js": "/genotek/static/js/main.5650b572.chunk.js",
-    "main.js.map": "/genotek/static/js/main.5650b572.chunk.js.map",
+    "main.css": "/genotek/static/css/main.6c306a09.chunk.css",
+    "main.js": "/genotek/static/js/main.f0ae4c10.chunk.js",
+    "main.js.map": "/genotek/static/js/main.f0ae4c10.chunk.js.map",
     "runtime-main.js": "/genotek/static/js/runtime-main.9d258f42.js",
     "runtime-main.js.map": "/genotek/static/js/runtime-main.9d258f42.js.map",
-    "static/js/2.b119aab4.chunk.js": "/genotek/static/js/2.b119aab4.chunk.js",
-    "static/js/2.b119aab4.chunk.js.map": "/genotek/static/js/2.b119aab4.chunk.js.map",
+    "static/css/2.dd1866a9.chunk.css": "/genotek/static/css/2.dd1866a9.chunk.css",
+    "static/js/2.46785600.chunk.js": "/genotek/static/js/2.46785600.chunk.js",
+    "static/js/2.46785600.chunk.js.map": "/genotek/static/js/2.46785600.chunk.js.map",
     "index.html": "/genotek/index.html",
-    "precache-manifest.a41e451abc1bbde9b3c32241dd99d789.js": "/genotek/precache-manifest.a41e451abc1bbde9b3c32241dd99d789.js",
+    "precache-manifest.a75f64f34d12a40d04171a90b395b45f.js": "/genotek/precache-manifest.a75f64f34d12a40d04171a90b395b45f.js",
     "service-worker.js": "/genotek/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/genotek/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.b119aab4.chunk.js.LICENSE.txt": "/genotek/static/js/2.b119aab4.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/genotek/static/media/logo.5d5d9eef.svg"
+    "static/css/2.dd1866a9.chunk.css.map": "/genotek/static/css/2.dd1866a9.chunk.css.map",
+    "static/css/main.6c306a09.chunk.css.map": "/genotek/static/css/main.6c306a09.chunk.css.map",
+    "static/js/2.46785600.chunk.js.LICENSE.txt": "/genotek/static/js/2.46785600.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/genotek/static/media/ALSStory.e501cec2.woff2",
+    "static/media/box-personal-copy-2.png": "/genotek/static/media/box-personal-copy-2.8a507a55.png",
+    "static/media/icons.svg": "/genotek/static/media/icons.55976247.svg",
+    "static/media/rectangle-copy-25.jpg": "/genotek/static/media/rectangle-copy-25.6de6f2dd.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9d258f42.js",
-    "static/js/2.b119aab4.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.5650b572.chunk.js"
+    "static/css/2.dd1866a9.chunk.css",
+    "static/js/2.46785600.chunk.js",
+    "static/css/main.6c306a09.chunk.css",
+    "static/js/main.f0ae4c10.chunk.js"
   ]
 }
